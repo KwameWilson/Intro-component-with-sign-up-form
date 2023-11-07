@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #FFF;
+    background-color: #FF7979;
+    background-image: url(../img/bg-intro-desktop.png);
+    font-family: Poppins;
+}
+
+.container {
+    align-items: center;
+    /* border: 2px solid red; */
+    display: grid;
+    margin: 121px auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+    width: 1110px;
+}
+
+header {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    /* 110% */
+    letter-spacing: -0.521px;
+    margin-bottom: 11px;
+}
+
+h3 {
+    color: #FFF;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.btn {
+    border: 0;
+    border-radius: 10px;
+}
+
+.btn-trial {
+    margin-bottom: 24px;
+    background: #5E54A4;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    padding: 17px 112px;
+    font-family: poppins;
+    width: 540px;
+    text-align: center;
+}
+
+span.trial {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.268px;
+}
+
+h4 {
+    color: #FFF;
+}
+
+.frm {
+    background: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    /* display: flex; */
+    /* grid-auto-flow: row; */
+    /* flex-direction: column; */
+    padding: 40px;
+    height: 474px;
+    text-align: center;
+}
+
+
+.text-box {
+    border-radius: 5px;
+    border: 1px solid #5E54A4;
+    background: #FFF;
+    width: 460px;
+}
+
+#first-name,
+#last-name,
+#email,
+#password {
+    margin-bottom: 20px;
+    padding: 15px 357px 15px 32px;
+    font-weight: 600;
+    opacity: 0.75;
+}
+
+/* #first-name { 
+    border: 1px solid #DEDEDE; */
+/* } */
+
+#email {
+    padding: 15px 324px 15px 32px;
+    border: 1px solid #DEDEDE;
+}
+
+#last-name {
+    border: 1px solid #DEDEDE;
+}
+
+#password {
+    border: 1px solid #DEDEDE;
+}
+
+#last-name {
+    padding: 15px 350px 15px 32px;
+}
+
+.btn-claim {
+    border-radius: 5px;
+    background: #38CC8B;
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+    color: #FFF;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 15px 134px;
+    text-transform: uppercase;
+    width: 460px;
+}
+
+.terms {
+    color: #BAB7D4;
+    text-align: center;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 236.364% */
+}
+
+span.emphasis {
+    color: #FF7979;
+}
